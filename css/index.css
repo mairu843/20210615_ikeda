@@ -84,7 +84,7 @@ a {
     }
 
     .main__service {
-        width: 1080px;
+        /* width: 1080px; */
         margin: 0 auto;
     }
     .main__service h2 {
@@ -96,6 +96,8 @@ a {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        width: 80%;
+        margin: 0 auto;
     }
     .main__service--group {
         width: 49%;
@@ -110,6 +112,7 @@ a {
     }
     .main__service--group h3 {
         font-size: 18px;
+        font-weight: bold;
     }
     .main__service--btn {
         display: block;
